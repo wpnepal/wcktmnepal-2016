@@ -7,3 +7,88 @@ Author URI:
 Template:       twentysixteen
 Version:        0.1.0
 */
+
+.site {
+	margin: 0;
+}
+body:not(.custom-background-image)::before,
+body:not(.custom-background-image)::after {
+	height: 0;
+}
+
+.site-header {
+    background-image: url("http://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-main-banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin-top: 50px;
+    min-height: 532px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-branding {
+	display: none;
+}
+.site-content {
+    padding-top: 50px;
+}
+
+@media only screen and (min-width:1169px) {
+
+	#site-header-menu {
+	    background-color: #2f3436;
+	    left: 0;
+	    margin: 0;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	}
+
+	#site-navigation {
+		max-width: 1189px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#site-navigation li {
+		float: none;
+		display: inline-block;
+	}
+	#site-navigation li a {
+	    color: #ffffff;
+		padding-bottom:15px;
+	    padding-top: 15px;
+	}
+	#site-navigation li li a {
+		color:#2f3436;
+		padding-bottom:10px;
+	    padding-top: 10px;
+	}
+	.main-navigation .menu-item-has-children > a::after {
+		top: 18px;
+	}
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a {
+	    background-color: #CE272A;
+	    font-weight: normal;
+	}
+	#site-navigation li li {
+		text-align: left;
+		display: block;
+	}
+
+	#site-navigation li:hover ul {
+		left: 0;
+		min-width: 200px;
+	}
+	#site-navigation li li:hover ul {
+		left: 0;
+		min-width: 200px;
+	}
+
+	.main-navigation ul ul::before,
+	.main-navigation ul ul::after {
+		display: none;
+	}
+
+}
