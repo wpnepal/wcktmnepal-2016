@@ -54,6 +54,13 @@ nav.pagination a {
 .pagination .next:focus {
     background-color: #ce272a;
 }
+.post-navigation a:hover .post-title,
+.post-navigation a:focus .post-title {
+	color: #ce272a;
+}
+blockquote {
+	border-color: #ce272a;
+}
 a:hover, a:active {
     opacity: 1;
 }
@@ -163,3 +170,34 @@ a:hover, a:active {
 	margin-right: 15px;
 	float: left;
 }
+
+body:not(.search-results) article:not(.type-page) .entry-content {
+	float: left;
+	width: 100%;
+	clear: both;
+	margin-bottom: 20px;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer {
+	margin-top: 15px;
+	padding-top: 30px;
+	border-top: 1px #333 dotted;
+	float: none;
+	width: 100%;
+	clear: both;
+	text-align: center;
+}
+
+body:not(.search-results) article:not(.type-page) .entry-footer .avatar {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.entry-content blockquote:not(.alignleft):not(.alignright), .entry-summary blockquote, .comment-content blockquote {
+	margin-left: 0;
+}
+article .entry-content ul,
+article .entry-content ol {
+	list-style-position: inside;
+}
+
