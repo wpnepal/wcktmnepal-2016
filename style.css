@@ -16,24 +16,30 @@ body:not(.custom-background-image)::after {
 	height: 0;
 }
 
-.site-header {
-    background-image: url("http://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-main-banner.png");
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    margin-top: 50px;
-    min-height: 532px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+#masthead{
+	padding: 0;
+	padding-top: 50px;
 }
-
+.header-image {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.header-image img{
+	width: 100%
+}
 .site-branding {
 	display: none;
 }
 .site-content {
     padding-top: 50px;
 }
-
+a:hover, a:active {
+    opacity: 1;
+}
+.header-image a:hover img,
+.header-image a:focus img {
+    opacity: 1;
+}
 @media only screen and (min-width:1169px) {
 
 	#site-header-menu {
@@ -43,6 +49,7 @@ body:not(.custom-background-image)::after {
 	    position: fixed;
 	    top: 0;
 	    width: 100%;
+	    z-index: 999;
 	}
 
 	#site-navigation {
