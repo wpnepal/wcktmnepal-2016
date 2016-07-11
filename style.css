@@ -33,6 +33,27 @@ body:not(.custom-background-image)::after {
 .site-content {
     padding-top: 50px;
 }
+.entry-content a,
+.widget-area a,
+.entry-footer a:hover{
+    color: #ce272a;
+}
+.widget-area a:hover {
+    color: #686868;
+}
+.entry-title a:hover,
+.site-footer a:hover {
+    color: #ce272a;
+}
+nav.pagination a {
+    color: #ce272a;
+}
+.pagination .prev:hover,
+.pagination .prev:focus,
+.pagination .next:hover,
+.pagination .next:focus {
+    background-color: #ce272a;
+}
 a:hover, a:active {
     opacity: 1;
 }
@@ -72,13 +93,16 @@ a:hover, a:active {
 		padding-bottom:10px;
 	    padding-top: 10px;
 	}
-	.main-navigation .menu-item-has-children > a::after {
+	#site-navigation .menu-item-has-children > a::after {
 		top: 18px;
 	}
-	.main-navigation .current-menu-item > a,
-	.main-navigation .current-menu-ancestor > a {
+	#site-navigation .current-menu-item > a,
+	#site-navigation .current-menu-ancestor > a,
+	#site-navigation li li.current-menu-item > a,
+	#site-navigation li li.current-menu-ancestor > a  {
 	    background-color: #CE272A;
 	    font-weight: normal;
+	    color:#fff;
 	}
 	#site-navigation li li {
 		text-align: left;
