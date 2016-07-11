@@ -40,7 +40,8 @@ a:hover, a:active {
 .header-image a:focus img {
     opacity: 1;
 }
-@media only screen and (min-width:1169px) {
+
+@media only screen and (min-width:910px) {
 
 	#site-header-menu {
 	    background-color: #2f3436;
@@ -98,4 +99,27 @@ a:hover, a:active {
 		display: none;
 	}
 
+}
+
+@media only screen and (max-width:909px) {
+	.site-branding {
+		display: block;
+		padding: 0 30px;
+		text-align: center;
+	}
+	#masthead {
+		padding: 50px 50px 0;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	#masthead {
+		padding: 15px 25px 0;
+	}
+	.menu-toggle {
+		margin: 0 auto;
+	}
+	.site-header-main {
+		margin-bottom: 15px;
+	}
 }
