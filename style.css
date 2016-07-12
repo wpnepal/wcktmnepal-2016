@@ -218,6 +218,10 @@ article .entry-content ol {
 	.site-header-main {
 	    padding-right: 25px;
 	}
+	body:not(.search-results) article:not(.type-page) .entry-content,
+	body:not(.search-results) article:not(.type-page) .entry-footer {
+		width: 85%;
+	}
 }
 
 
