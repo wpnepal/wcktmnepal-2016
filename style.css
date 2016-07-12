@@ -141,6 +141,13 @@ a:hover, a:active {
 		display: none;
 	}
 
+	body.admin-bar .site-header-menu ul {
+		margin-top: 30px;
+	}
+	body.admin-bar .site-header-menu ul ul {
+		margin-top: 0;
+	}
+
 }
 
 @media only screen and (max-width:909px) {
@@ -200,4 +207,3 @@ article .entry-content ul,
 article .entry-content ol {
 	list-style-position: inside;
 }
-
