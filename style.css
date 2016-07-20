@@ -270,3 +270,14 @@ article .entry-content ol {
 		line-height: 1.5;
 	}
 }
+
+.page-slug-code-of-conduct .entry-content ol > li,
+.page-id-2399 .entry-content ol > li {
+	margin-bottom: 25px;
+}
+
+.page-slug-code-of-conduct .entry-content ol > li strong,
+.page-id-2399 .entry-content ol > li strong {
+	margin-bottom: 10px;
+	display: inline-block;
+}
