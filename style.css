@@ -20,7 +20,7 @@ body:not(.custom-background-image)::after {
 #masthead {
 	padding: 0;
 	padding-top: 50px;
-    background: rgba(0, 0, 0, 0) url("http://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-main-banner.png") no-repeat ;
+    background: rgba(0, 0, 0, 0) url('https://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-main-banner.png') no-repeat ;
     background-size: 100%;
 	height: 540px;
 }
