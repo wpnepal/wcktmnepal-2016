@@ -17,14 +17,19 @@ body:not(.custom-background-image)::after {
 	height: 0;
 }
 
-#masthead {
+.home #masthead {
 	padding: 0;
-	padding-top: 50px;
+	margin-top: 50px;
     background: rgba(0, 0, 0, 0) url('https://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-main-banner.png') no-repeat ;
     background-size: 100%;
 	height: 540px;
 }
-
+#masthead {
+    background: rgba(0, 0, 0, 0) url("https://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-inner-banner.png") no-repeat scroll center bottom / 100% auto;
+    height: 230px;
+    margin-top: 47px;
+    padding: 0;
+}
 .site-branding {
 	display: none;
 }
@@ -100,6 +105,19 @@ article .entry-content ul,
 article .entry-content ol {
 	list-style-position: inside;
 }
+
+.page-slug-code-of-conduct .entry-content ol > li,
+.page-id-2399 .entry-content ol > li {
+	margin-bottom: 25px;
+}
+
+.page-slug-code-of-conduct .entry-content ol > li strong,
+.page-id-2399 .entry-content ol > li strong {
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+
 
 @media only screen and (min-width:910px) {
 
@@ -186,20 +204,46 @@ article .entry-content ol {
 
 }
 @media only screen and (max-width:1100px) {
-	#masthead {
+	.home #masthead {
 		height: 400px;
+	}
+	#masthead {
+	    height: 180px;
 	}
 }
 
 @media only screen and (max-width:1023px) {
+
 	#masthead {
+	    height: 134px;
+	}
+	.home #masthead {
 		height: 300px;
+	}
+	.home .site-branding {
+	    display: block;
+	    float: left;
+	}
+	.site-branding {
+	    display: none;
+	}
+	.site-header-menu {
+		clear:both;
+
+	}
+	.site-header-main {
+	    display: block;
+	    flex-wrap: wrap;
+	    padding: 0;
+	}
+	.menu-toggle {
+	    float: right;
+	    margin-right: 20px;
 	}
 	.site-branding {
 	    text-align: left;
 	}
 	.site-branding {
-		display: block;
 		padding: 0 30px;
 	}
 	#masthead {
@@ -208,15 +252,15 @@ article .entry-content ol {
 	.site-header-menu {
 	    margin: 0.875em 1em;
 	}
-	.site-header-menu {
-		z-index: 9999;
-		background-color: #FFF;
-	}
+.site-header-menu {
+    background-color: #ffffff;
+    position: absolute;
+    top: 80px;
+    width: 92%;
+    z-index: 9999;
+}
 	.main-navigation a {
 	    padding: 0.84375em 1em;
-	}
-	.site-header-main {
-	    padding-right: 25px;
 	}
 	body:not(.search-results) article:not(.type-page) .entry-content,
 	body:not(.search-results) article:not(.type-page) .entry-footer {
@@ -226,8 +270,12 @@ article .entry-content ol {
 
 
 @media only screen and (max-width:767px) {
-	#masthead {
+	.home #masthead {
 		height: 200px;
+		padding: 0;
+	}
+	#masthead {
+		height: 80px;
 		padding: 0;
 	}
 	.site-header-main {
@@ -239,15 +287,13 @@ article .entry-content ol {
 	body:not(.search-results) article:not(.type-page) .entry-footer {
 		width: 85% !important;
 	}
-	.menu-toggle {
-		margin: 0 auto;
-	}
+
+
 	.site-header-main {
 		margin-bottom: 15px;
 	}
-	#content {
-		margin-top: 100px;
-	}
+
+
 	.site-branding {
 		margin-top: 220px;
 		text-align:center;
@@ -255,8 +301,12 @@ article .entry-content ol {
 }
 
 @media only screen and (max-width:479px) {
-	#masthead {
+	.home #masthead {
 		height: 130px;
+		padding: 0;
+	}
+	#masthead {
+		height: 50px;
 		padding: 0;
 	}
 	.site-branding {
@@ -269,15 +319,4 @@ article .entry-content ol {
 		font-size: 16px;
 		line-height: 1.5;
 	}
-}
-
-.page-slug-code-of-conduct .entry-content ol > li,
-.page-id-2399 .entry-content ol > li {
-	margin-bottom: 25px;
-}
-
-.page-slug-code-of-conduct .entry-content ol > li strong,
-.page-id-2399 .entry-content ol > li strong {
-	margin-bottom: 10px;
-	display: inline-block;
 }
