@@ -278,6 +278,11 @@ article .entry-content ol {
 		height: 80px;
 		padding: 0;
 	}
+	#menu-toggle {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
 	.site-header-main {
 		padding-right: 0;
 	}
