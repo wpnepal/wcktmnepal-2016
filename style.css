@@ -123,6 +123,12 @@ article .entry-content ol {
     width: auto;
     height: auto;
 }
+#tix-attendees .tix-attendee-list li {
+    margin-bottom: 70px;
+}
+#tix-attendees .tix-field {
+    margin-left: 0;
+}
 
 @media only screen and (min-width:910px) {
 
