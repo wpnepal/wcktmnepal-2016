@@ -335,4 +335,7 @@ article .entry-content ol {
 		font-size: 16px;
 		line-height: 1.5;
 	}
+    #tix-attendees .tix-columns-3 li {
+        width: 50%;
+    }
 }
