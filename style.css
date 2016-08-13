@@ -117,7 +117,12 @@ article .entry-content ol {
 	display: inline-block;
 }
 
-
+/*Attendees*/
+#tix-attendees .avatar {
+    float: none;
+    width: auto;
+    height: auto;
+}
 
 @media only screen and (min-width:910px) {
 
