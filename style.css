@@ -263,13 +263,13 @@ article .entry-content ol {
 	.site-header-menu {
 	    margin: 0.875em 1em;
 	}
-.site-header-menu {
-    background-color: #ffffff;
-    position: absolute;
-    top: 80px;
-    width: 92%;
-    z-index: 9999;
-}
+	.site-header-menu {
+	    background-color: #ffffff;
+	    position: absolute;
+	    top: 80px;
+	    width: 92%;
+	    z-index: 9999;
+	}
 	.main-navigation a {
 	    padding: 0.84375em 1em;
 	}
@@ -278,7 +278,12 @@ article .entry-content ol {
 		width: 85%;
 	}
 }
-
+@media only screen and (max-width:910px) {
+	#masthead,
+	.home #masthead {
+		margin-top: 0;
+	}
+}
 
 @media only screen and (max-width:767px) {
 	.home #masthead {
@@ -318,13 +323,14 @@ article .entry-content ol {
 
 @media only screen and (max-width:479px) {
 	.home #masthead {
-		height: 130px;
+		height: 200px;
 		padding: 0;
 	}
-	#masthead {
-		height: 50px;
-		padding: 0;
-	}
+#masthead {
+    background-position: center top;
+    height: 63px;
+    padding: 0;
+}
 	.site-branding {
 		margin-top: 200px;
 	}
