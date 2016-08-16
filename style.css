@@ -291,7 +291,7 @@ article .entry-content ol {
 		padding: 0;
 	}
 	#masthead {
-		height: 80px;
+		height: 100px;
 		padding: 0;
 	}
 	#menu-toggle {
@@ -308,13 +308,9 @@ article .entry-content ol {
 	body:not(.search-results) article:not(.type-page) .entry-footer {
 		width: 85% !important;
 	}
-
-
 	.site-header-main {
 		margin-bottom: 15px;
 	}
-
-
 	.site-branding {
 		margin-top: 220px;
 		text-align:center;
