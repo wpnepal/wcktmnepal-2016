@@ -25,7 +25,7 @@ body:not(.custom-background-image)::after {
 	height: 540px;
 }
 #masthead {
-    background: rgba(0, 0, 0, 0) url("https://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-inner-banner.png") no-repeat scroll center bottom / 100% auto;
+    background: rgba(0, 0, 0, 0) url('https://2016.kathmandu.wordcamp.org/files/2016/07/wcktm-inner-banner.png') no-repeat scroll center bottom / 100% auto;
     height: 230px;
     margin-top: 47px;
     padding: 0;
@@ -117,7 +117,7 @@ article .entry-content ol {
 	display: inline-block;
 }
 
-/*Attendees*/
+/* Attendees */
 #tix-attendees .avatar {
     float: none;
     width: auto;
@@ -291,8 +291,9 @@ article .entry-content ol {
 		padding: 0;
 	}
 	#masthead {
-		height: 100px;
+		height: 115px;
 		padding: 0;
+		background-position: top;
 	}
 	#menu-toggle {
 		position: absolute;
@@ -316,7 +317,9 @@ article .entry-content ol {
 		text-align:center;
 	}
 
-
+	.site-header-main {
+	    margin-bottom: 0;
+	}
 }
 
 
@@ -342,5 +345,3 @@ article .entry-content ol {
         width: 50%;
     }
 }
-
-
