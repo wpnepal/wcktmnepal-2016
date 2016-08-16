@@ -315,24 +315,25 @@ article .entry-content ol {
 		margin-top: 220px;
 		text-align:center;
 	}
+
+
 }
+
 
 @media only screen and (max-width:479px) {
 	.home #masthead {
 		height: 200px;
 		padding: 0;
 	}
-#masthead {
-    background-position: center top;
-    height: 63px;
-    padding: 0;
-}
-	.site-branding {
-		margin-top: 200px;
+	#masthead {
+	    background-position: center top;
+	    height: 63px;
+	    padding: 0;
 	}
 	.site-branding {
-		margin-top: 144px;
+		margin-top: 165px;
 	}
+
 	.site-title {
 		font-size: 16px;
 		line-height: 1.5;
@@ -341,3 +342,5 @@ article .entry-content ol {
         width: 50%;
     }
 }
+
+
