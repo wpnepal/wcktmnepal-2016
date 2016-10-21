@@ -71,7 +71,8 @@ a:hover, a:active {
 .header-image a:focus img {
     opacity: 1;
 }
-.page-slug-organizers .wcorg-organizer img {
+.page-slug-organizers .wcorg-organizer img,
+.page-slug-volunteers .wcorg-organizer img {
 	margin-right: 15px;
 	float: left;
 }
