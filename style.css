@@ -131,6 +131,14 @@ article .entry-content ol {
     margin-left: 0;
 }
 
+.sitem-wrap {
+	margin: 10px 0;
+}
+.sitem-wrap .sitem-image {
+	float: left;
+	margin-right: 20px;
+}
+
 @media only screen and (min-width:910px) {
 
 	.site-inner {
