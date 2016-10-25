@@ -132,8 +132,13 @@ article .entry-content ol {
 }
 
 .sitem-wrap {
-	margin: 10px 0;
+	margin: 40px 0;
+	display: block;
+	clear: both;
+	height: auto;
+	overflow: hidden;
 }
+
 .sitem-wrap .sitem-image {
 	float: left;
 	margin-right: 20px;
