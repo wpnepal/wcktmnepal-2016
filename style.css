@@ -151,6 +151,15 @@ article .entry-content ol {
 	font-size: 0.9em;
 }
 
+.page-slug-schedule .wcpt-time {
+	font-weight: bold;
+}
+
+.page-slug-schedule .global-session td:not(.wcpt-time) {
+    font-weight: bold;
+    text-align: center;
+}
+
 @media only screen and (min-width:910px) {
 
 	.site-inner {
