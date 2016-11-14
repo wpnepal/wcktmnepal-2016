@@ -160,6 +160,12 @@ article .entry-content ol {
     text-align: center;
 }
 
+.page-slug-schedule .wcb-session-workshop-in-saas,
+.page-slug-schedule .wcb-session-workshop-in-rest-api,
+.page-slug-schedule .wcpt-time-150pm .wcpt-session-empty {
+    border-bottom: medium none;
+}
+
 @media only screen and (min-width:910px) {
 
 	.site-inner {
